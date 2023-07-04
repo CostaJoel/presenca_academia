@@ -6,7 +6,6 @@ import os
 
 def main():
     st.set_page_config(page_title="Rinha de Sedentários", page_icon="💪", layout="centered", initial_sidebar_state="auto", menu_items=None)
-    st.write("teste")
     st.write("<h1 style='text-align: center;'>Rinha de Sedentários!!! 💪</h1>", unsafe_allow_html=True)
     st.write("<h3 style='text-align: center;'>Quem ganhará esse tão esperado rodízio? 🍣🍤🍙", unsafe_allow_html=True)
     # Carrega as imagens
@@ -29,7 +28,7 @@ def main():
     col2.write()
     with col3:
         carrega_placar("Deny")
-        col3.image(foto_deny, caption="Competidora Deny", width=400)
+        col3.image(foto_deny, caption="Competidor Deny", width=400)
         button_clicked = col3.button("Marcar presença Deny")
         if button_clicked:
             marca_presenca("Deny")
