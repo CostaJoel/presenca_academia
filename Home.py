@@ -6,6 +6,7 @@ import os
 
 def main():
     st.set_page_config(page_title="Rinha de Sedentários", page_icon="💪", layout="centered", initial_sidebar_state="auto", menu_items=None)
+    st.write("teste")
     st.write("<h1 style='text-align: center;'>Rinha de Sedentários!!! 💪</h1>", unsafe_allow_html=True)
     st.write("<h3 style='text-align: center;'>Quem ganhará esse tão esperado rodízio? 🍣🍤🍙", unsafe_allow_html=True)
     # Carrega as imagens
