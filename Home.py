@@ -5,8 +5,8 @@ def main():
     st.write("# Rinha de Sedentários!!!")
     st.write("## Quem ganhará esse tão esperado rodízio?")
     # Carrega as imagens
-    foto_deny = Image.open("img\\foto-deny.PNG")
-    foto_fabricia = Image.open("img\foto-fabricia.jpg")
+    foto_deny = Image.open("img/foto-deny.PNG")
+    foto_fabricia = Image.open("img/foto-fabricia.jpg")
 
     # Redimensiona as imagens para exibição
     foto_deny = foto_deny.resize((600, 300))
